@@ -345,6 +345,7 @@ CREATE TRIGGER `trg_proyecto_before_update` BEFORE UPDATE ON `proyecto` FOR EACH
       'docente_id_jefe', NEW.docente_id_jefe
     )
   );
+
 END
 $$
 DELIMITER ;
@@ -410,7 +411,7 @@ ALTER TABLE `proyecto`
 --
 -- Restricciones para tablas volcadas
 --
-
+--Iniciando comentarios
 --
 -- Filtros para la tabla `proyecto`
 --
